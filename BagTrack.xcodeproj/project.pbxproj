@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C28322361D5170EF001BD04D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28322351D5170EF001BD04D /* SwiftyJSON.swift */; };
 		C2D2CB111D4CEA4700EEDA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CB101D4CEA4700EEDA7E /* AppDelegate.swift */; };
 		C2D2CB131D4CEA4700EEDA7E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CB121D4CEA4700EEDA7E /* MasterViewController.swift */; };
 		C2D2CB151D4CEA4800EEDA7E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CB141D4CEA4800EEDA7E /* DetailViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C28322351D5170EF001BD04D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		C2D2CB0D1D4CEA4700EEDA7E /* BagTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BagTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D2CB101D4CEA4700EEDA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D2CB121D4CEA4700EEDA7E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C2D2CB101D4CEA4700EEDA7E /* AppDelegate.swift */,
+				C28322351D5170EF001BD04D /* SwiftyJSON.swift */,
 				C2D2CB121D4CEA4700EEDA7E /* MasterViewController.swift */,
 				C2D2CB141D4CEA4800EEDA7E /* DetailViewController.swift */,
 				C2D2CB161D4CEA4800EEDA7E /* Main.storyboard */,
@@ -262,6 +265,7 @@
 				C2D2CB151D4CEA4800EEDA7E /* DetailViewController.swift in Sources */,
 				C2D2CB131D4CEA4700EEDA7E /* MasterViewController.swift in Sources */,
 				C2D2CB111D4CEA4700EEDA7E /* AppDelegate.swift in Sources */,
+				C28322361D5170EF001BD04D /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				C2D2CB391D4CEA4800EEDA7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D2CB3A1D4CEA4800EEDA7E /* Build configuration list for PBXNativeTarget "BagTrackTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				C2D2CB3C1D4CEA4800EEDA7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D2CB3D1D4CEA4800EEDA7E /* Build configuration list for PBXNativeTarget "BagTrackUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				C2D2CB3F1D4CEA4800EEDA7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
