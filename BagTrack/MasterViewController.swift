@@ -8,19 +8,20 @@
 
 import UIKit
 
+
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [AnyObject]()
     let json = "{ \"people\": [{ \"firstName\": \"Paul\", \"lastName\": \"Hudson\", \"isAlive\": true }, { \"firstName\": \"Angela\", \"lastName\": \"Merkel\", \"isAlive\": true }, { \"firstName\": \"George\", \"lastName\": \"Washington\", \"isAlive\": false } ] }";
 
-    if let data = json.dataUsingEncoding(NSUTF8StringEncoding) {
-        let json = JSON(data: data)
-        
-        for item in json["people"].arrayValue {
-            print(item["firstName"].stringValue)
-        }
-    }
+//    if let data = json.dataUsingEncoding(NSUTF8StringEncoding) {
+//        let json = JSON(data: data)
+//
+//        for item in json["people"].arrayValue {
+//            print(item["firstName"].stringValue)
+//        }
+//    }
 
 
 
